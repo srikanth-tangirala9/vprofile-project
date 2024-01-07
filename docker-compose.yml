@@ -31,7 +31,6 @@ services:
       - "8080:8080"
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
-      -
   vproweb:
     build:
       context: ./Docker-files/web
